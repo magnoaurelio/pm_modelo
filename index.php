@@ -1,6 +1,6 @@
 <html>
 <?php
-include 'include/head.php';
+include_once 'include/head.php';
 include_once 'app/control/Router.class.php';
 require 'vendor/autoload.php';
 ini_set('display_errors',true);
