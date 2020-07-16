@@ -4,7 +4,7 @@ $path =  "templates/theme5/";
 <div class="kp-page-header">
     <div class="header-top">
         <div class="kp-headline-wrapper pull-left clearfix">
-            <span class="kp-headline-title">Notícias da Hora</span>
+            <span class="kp-headline-title">Notícias da Hora 1</span>
             <div class="kp-headline clearfix">
                 <dl class="ticker-1 clearfix">
                     <?php
@@ -39,11 +39,11 @@ $path =  "templates/theme5/";
     <div class="header-middle">
         <div id="logo-image" class="pull-left" >
             <a href="index.php" title="Início - Home">
-                <img src="<?=$path?>wp-content/uploads/2014/01/BRASAO.jpg" alt="Municipio" width="200" height="120px"/>
+                <img src="imagem/brasao.jpg" alt="Municipio" width="200" height="120px"/>
             </a>
         </div>
         <div id="top-banner" class="pull-right" style="margin-top: -2px;">
-            <a target=_blank href="#"><img src="<?=$path?>wp-content/uploads/2014/01/piaui_banner.jpg" alt="Imagens" width="100%"/></a>
+            <a target=_blank href="#"><img src="Iimagem/banner01.jpg" alt="Imagens" width="100%"/></a>
         </div>
         <div id="logo-image" class="pull-center" style="margin-left: 50px;">
             <form action="?p=busca" method="post" id="busca" class="form-inline" style="margin-top: 12px;">

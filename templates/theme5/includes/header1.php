@@ -11,48 +11,26 @@ $path =  "templates/theme5/";
                      $data_hora = date('d M Y H:i:s');
                      ?>
                     <dd>
-                      <a href="index6905.html?p=384">
-                          <span class="date updated"> <?= $data_hora?>
-                          </span> - Formato de postagem de áudio único</a>
+                      <a href="index6905.html?p=384"><span class="date updated">
+                     <?= $data_hora?></span> - Formato de postagem de áudio único</a>
                     </dd>
-                    <dd>
-                        <a href="index802e.html?p=382">
-                            <span class="date updated">
-                             <?= $data_hora?>
-                            </span> - Postagem única galeria
-                        </a>
-                    </dd>
-                    <dd>
-                        <a href="indexcaf0.html?p=359">
-                            <span class="date updated"> <?= $data_hora?>
-                            </span> - Formato de postagem de áudio único
-                        </a>
-                    </dd>
-                    <dd>
-                        <a href="indexec1b.html?p=357">
-                            <span class="date updated"><?= $data_hora?>
-                            </span> - Formato de postagem de áudio único
-                        </a>
-                    </dd>
+                    <dd><a href="index802e.html?p=382">
+                            <span class="date updated"><?= $data_hora?></span> - Postagem única galeria</a></dd>
+                    <dd><a href="indexcaf0.html?p=359"><span class="date updated"><?= $data_hora?></span> - Formato de postagem de áudio único</a></dd>
+                    <dd><a href="indexec1b.html?p=357"><span class="date updated"><?= $data_hora?></span> - Formato de postagem de áudio único</a></dd>
 
                 </dl>
             </div>
         </div>
-        <ul id="top-menu" class="clearfix"  style="margin-top: 0px; padding-top: 2px;">
+        <ul id="top-menu" class="clearfix" >
             <li id="menu-item-417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-417">
-                <a href="index.php" title="Acesso Painel Controle">
-                     <i style="font-size: 18px;" class="fa fa-lock fl-fg"></i>
-                </a>
+                <a href="index.php" title="Acesso Painel Controle">Acesso <i class="fa fa-lock"></i></a>
             </li>
             <li id="menu-item-419" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-419">
-                <a href="#" title="Diário Oficial de">
-                    <i style="font-size: 18px;" class="fa fa-book fl-fg"></i> 
-                </a>
+                <a href="#" title="Diário Oficial de">Diário </i></a>
             </li>
             <li id="menu-item-420" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-420">
-                <a href="#" title="Portal da Transparência ">
-                     <i style="font-size: 18px;" class="fa fa-search-plus fl-fg"></i> 
-                </a>
+                <a href="#" title="Portal da Transparência ">Transparência</i></a>
             </li>
             <!--li id="menu-item-418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"><a href="index8091.html?page_id=64">Contato</a></li-->
         </ul>
@@ -61,28 +39,27 @@ $path =  "templates/theme5/";
     <div class="header-middle">
         <div id="logo-image" class="pull-left" >
             <a href="index.php" title="Início - Home">
-                <img src="imagem/brasao.jpg" alt="Municipio" width="160" height="100px"/>
+                <img src="<?=$path?>wp-content/uploads/2014/01/BRASAO.jpg" alt="Municipio" width="200" height="120px"/>
             </a>
         </div>
         <div id="top-banner" class="pull-right" style="margin-top: -2px;">
-            <a target=_blank href="#"><img src="imagem/banner01.jpg" alt="Imagens" width="600px;" height="100px;" /></a>
+            <a target=_blank href="#"><img src="<?=$path?>wp-content/uploads/2014/01/piaui_banner.jpg" alt="Imagens" width="100%"/></a>
         </div>
-        <!-- clima -->
-        <div id="logo-image" class="pull-center" style="margin-left: 100px; width: 600px;">
+        <div id="logo-image" class="pull-center" style="margin-left: 50px;">
             <form action="?p=busca" method="post" id="busca" class="form-inline" style="margin-top: 12px;">
-                <iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="https://www.cptec.inpe.br/widget/widget.php?p=224&w=n&c=f3f3f3&f=423f42" height="46px" width="380px">
-                </iframe>
-                  <noscript>
-                  Previsão de 
-                  <a href="http://www.cptec.inpe.br/cidades/tempo/245">
-                      Brasília/DF
-                  </a> 
-                  </noscript><!-- Widget Previs&atilde;o de Tempo CPTEC/INPE -->
+                  <iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="https://www.cptec.inpe.br/widget/widget.php?p=224&w=n&c=#64AEF9&f=ffffff" height="46px" width="350px"></iframe>
+                  <noscript>Previs&atilde;o de <a href="http://www.cptec.inpe.br/cidades/tempo/245">Brasília/DF</a> oferecido por <a href="http://www.cptec.inpe.br">CPTEC/INPE</a> </noscript><!-- Widget Previs&atilde;o de Tempo CPTEC/INPE -->
              </form>
-            <!-- Widget Previs&atilde;o de Tempo CPTEC/INPE -->
-            <iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="https://www.cptec.inpe.br/widget/widget.php?p=245&w=n&c=f3f3f3&f=423f42" height="46px" width="380px"></iframe><noscript>Previs&atilde;o de <a href="http://www.cptec.inpe.br/cidades/tempo/245">Teresina/PI</a> oferecido por <a href="http://www.cptec.inpe.br">CPTEC/INPE</a></noscript><!-- Widget Previs&atilde;o de Tempo CPTEC/INPE -->
        </div>
         
+        <div id="logo-image" class="pull-center">
+            <form action="?p=busca" method="post" id="busca" class="form-inline" style="margin-top: 12px;">
+                <iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="https://www.cptec.inpe.br/widget/widget.php?p=245&w=n&c=#64AEF9&f=ffffff" height="46px" width="350px"></iframe>
+                <noscript>Previs&atilde;o de <a href="http://www.cptec.inpe.br/cidades/tempo/245">Teresina/PI</a> oferecido por <a href="http://www.cptec.inpe.br">CPTEC/INPE</a> </noscript><!-- Widget Previs&atilde;o de Tempo CPTEC/INPE -->
+            </form>
+        </div>
+        
+       
         <div class="clear"></div>
     </div>
     <div class="header-bottom">

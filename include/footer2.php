@@ -5,7 +5,7 @@
             <ul id="bottom-menu" class="clearfix">
                 <li id="menu-item-413"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-413">
-                    <a href="index.php">Início</i></a></li>
+                    <a href="index.php">Início</a></li>
                 <li id="menu-item-409"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-409"><a
                         href="indexe71e.html?page_id=336">Mídia</a></li>
@@ -23,15 +23,10 @@
                         href="index4821.html?cat=20">Áudio</a></li>
                 <li id="menu-item-412"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-412"><a
-                        href="indexedfb.html?page_id=58">Turísmo</a>
-                </li>
-                <li id="menu-item-412"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-412"><a
-                        href="indexedfb.html?page_id=58">Hospedagem</a>
-                </li>
+                        href="indexedfb.html?page_id=58">Elemento</a></li>
                 <li id="menu-item-411"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a
-                        href="index8091.html?page_id=64">Contate-nos</a></li>
+                        href="index8091.html?page_id=64">Contacte-nos</a></li>
             </ul>
         </nav>
     </div>
@@ -51,45 +46,45 @@
             </div>
         </div>
         <div class="col-md-2">
-            <div id="nav_menu-2" class="widget widget_nav_menu clearfix"><h6 class="widget-title">Eventos</h6>
+            <div id="nav_menu-2" class="widget widget_nav_menu clearfix"><h6 class="widget-title">Moda</h6>
                 <div class="menu-custom-menu-container">
                     <ul id="menu-custom-menu" class="menu">
                         <li id="menu-item-364"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364"><a
-                                href="#">Eventos outono 2013</a></li>
+                                href="#">Moda outono 2013</a></li>
                         <li id="menu-item-365"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365"><a
-                                href="#">Eventos Blog</a></li>
+                                href="#">Moda Blog</a></li>
                         <li id="menu-item-366"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-366"><a
-                                href="#">Os melhores Eventos do Município</a></li>
+                                href="#">As melhores lojas da América</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="col-md-2">
-            <div id="nav_menu-3" class="widget widget_nav_menu clearfix"><h6 class="widget-title">Festas - Turísmo</h6>
+            <div id="nav_menu-3" class="widget widget_nav_menu clearfix"><h6 class="widget-title">Idéia de cabelo</h6>
                 <div class="menu-custom-menu-container">
                     <ul id="menu-custom-menu-1" class="menu">
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364"><a
-                                href="#">Festa outono 2013</a></li>
+                                href="#">Moda outono 2013</a></li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365"><a
-                                href="#">Festa Blog</a></li>
+                                href="#">Moda Blog</a></li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-366"><a
-                                href="#">As melhores Festas do Município</a></li>
+                                href="#">As melhores lojas da América</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="col-md-2">
-            <div id="nav_menu-4" class="widget widget_nav_menu clearfix"><h6 class="widget-title">Dicas de Hospedagem</h6>
+            <div id="nav_menu-4" class="widget widget_nav_menu clearfix"><h6 class="widget-title">Dicas de maquiagem</h6>
                 <div class="menu-custom-menu-container">
                     <ul id="menu-custom-menu-2" class="menu">
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364"><a
-                                href="#">Hospedagem outono 2013</a></li>
+                                href="#">Moda outono 2013</a></li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365"><a
-                                href="#">Hospedagem Blog</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-366"><a href="#">As Vários tipos de Hospedagem</a></li>
+                                href="#">Moda Blog</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-366"><a href="#">As melhores lojas da América</a></li>
                     </ul>
                 </div>
             </div>
@@ -119,15 +114,20 @@
      <?php
      $data_ano = date('Y');
      ?>
-    <div class="kopa-copyright">
-        <p>
-             Todos os direitos reservados a <a href="#" target="_blanck" style="color:#1F6640;"><strong>SANTA CRUZ DOS MILAGRES</strong></a>. 
-             As marcas e imagens usadas no design são de direitos autorais de Eles são usados somente para fins de exibição e informação.
-        </p>
-        <p>
-            Copyright © 2017 - <?= $data_ano?>. desenvolvido por <a href="http://magnusoft.com.br/"target="_blanck" style="color:#001154;"><strong>Magnusoft Desenvolvimento</strong>
-             <img src="imagem/magnusoft_marca.png" width="120" height="40" alt="Magnusoft Desenvolvimento"/></a>
- 
-        <p>
+     <div id="footer-nav" class="fr">
+            <!--<ul class="menu">
+                <li><a href="index-2.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>-->
+            <b><small>Desenvolvido por:</small> <a href="http://magnusoft.com.br" target="_blank"><img src="portal/app/images/logomagnus.png" style="width:60px;"/></a></b>
+        </div>
+
+        <div id="credit" class="fl">
+            <p>&copy; PREFEITURA MUNICIPAL DE <?= $prefeitura->prenome ?> Todos os direitos resevados</p>
+        </div>
+    <div class="kopa-copyright"><p>Copyright © <?= $data_ano?>. Todos os direitos reservados. desenvolvido por <a href="http://magnusoft.com.br/" style="color:blue;">Magnusoft Desenvolvimento</a></p>
+        <p>As marcas e imagens usadas no design são de direitos autorais de seus respectivos proprietários. Eles são usados somente para fins de exibição.<p>
     </div>
 </footer>
